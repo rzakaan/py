@@ -21,3 +21,5 @@ if args.tty:
 else:
     img = qrcode.make(data)
     img.save("qrcode.png")
+
+
